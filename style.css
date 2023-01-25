@@ -3,69 +3,82 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 body {
     width: 100%;
     padding-right: 0;
-
 }
- section.header {
+
+
+section.header {
     background-color: rgb(51, 53, 69);
     height: 64px;
     width: 100%;
     display: flex;
- }
+}
+
+
 section.header section.wrapper {
     width: 90%;
     margin: 0 auto;
     flex-wrap: wrap;
 }
- section.header section.wrapper section.left {
+
+
+section.header section.wrapper section.left {
     display: flex;
     position: absolute;
     left: 0;  
     padding-left: 30px;
- }
+}
 
- section.header section.wrapper section.left img{
+
+section.header section.wrapper section.left img{
     height: 55px;
     width: 150px;
-    padding-left: 0px;
-    
- }
- section.header section.wrapper section.left i {
+    padding-left: 0px;   
+}
+
+
+section.header section.wrapper section.left i {
     position: relative;
     top: 24px;
     left: -541px;
     color: rgb(117, 103, 103);
+}
 
- }
- section.header section.wrapper section.left input {
+
+section.header section.wrapper section.left input {
     width: 550px;
     height: 35px;
     border: 0;
     border-radius: 7px;
     position: relative;
     top: 15px;
- }
+}
 
- section.header section.wrapper section.right {
+
+section.header section.wrapper section.right {
     width: 92%;
     margin: 0 auto; 
     text-align: right;
     position: absolute;
-    font-family: tahoma;
-    
- }
+    font-family: tahoma;   
+}
 
- section.header section.wrapper section.right .item{
-        position: relative;
-        top: 20px;
-        color:rgb(180, 184, 187);
-        text-decoration: none;
-        margin-right: 2px ;
-        font-size: 15px;
- }
- section.header section.wrapper section.right .item1{
+
+section.header section.wrapper section.right .item{
+    position: relative;
+    top: 20px;
+    color:rgb(180, 184, 187);
+    text-decoration: none;
+    margin-right: 2px ;
+    font-size: 15px;
+}
+
+
+section.header section.wrapper section.right .item1{
     background-color: #ff5962;
     position: relative;
     top: 20px;
@@ -76,8 +89,9 @@ section.header section.wrapper {
     border-radius: 7px;
     font-size: 15px;
     padding: 5px;
-                            
 }
+
+
 section.header section.wrapper section.right i{
     color:rgb(180, 184, 187);
     position: relative;
@@ -85,25 +99,28 @@ section.header section.wrapper section.right i{
     font-size: 15px;                         
 }
 
+
 section.header2 {
     background-color: rgb(31, 37, 51);
     height: 40px;
     padding-left: 30px;
-    width: 100;
-   
+    width: 100; 
     box-sizing: border-box;
     width: 100%;
 }
+
+
 section.header2 .wrapper {
     display: flex;
     position: absolute;
-  
-
 }
+
+
 section.header2 .left{
     display: flex;
-
 }
+
+
 section.header2 .wrapper .left a{
     color: rgb(180, 184, 187);
     text-decoration: none;
@@ -113,12 +130,16 @@ section.header2 .wrapper .left a{
     top: 10px;
     font-size: 15px;
 }
+
+
 section.header2 .right{
     position: relative;
     left: 500px;
     top: 10px;
     box-sizing: border-box;
 }
+
+
 section.header2 .wrapper .right a{
     margin-right: 15px;
     text-align: right;
@@ -126,8 +147,9 @@ section.header2 .wrapper .right a{
     color: rgb(180, 184, 187);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-
 }
+
+
 section.poster1 img {
     position: relative;
     top: 10px;
@@ -136,6 +158,7 @@ section.poster1 img {
     width: 100%;
     height: 350px;
 }
+
 
 h3#h31 {
     display: block;
@@ -146,31 +169,38 @@ h3#h31 {
     font-size: 25px;
 }
 
+
 section.recommendedmovies{
     display: flex;
     box-sizing: border-box;
-  margin: 0 auto;
-   padding-left: 30px;
-   padding-right: 30px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
     width: 100%;
 }
+
+
 section.recommendedmovies div{
-   box-sizing: border-box;
+    box-sizing: border-box;
     width: 90%;
-    margin:0 auto;
-    
+    margin:0 auto; 
 }
+
+
 section.recommendedmovies div.one img {
     width: 225px;
     height: 380px;
-    border-radius: 10px;
-    
+    border-radius: 10px;    
 }
+
+
 section.recommendedmovies div.one p#one{
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 225px;
 }
+
+
 section.recommendedmovies div.one p#two{
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -181,56 +211,67 @@ section.recommendedmovies div.one p#two{
 section.recommendedmovies div.two img {
     width: 225px;
     height: 380px;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
+
+
 section.recommendedmovies div.two p#one{
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
 section.recommendedmovies div.two p#two{
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(114, 116, 117);
 }
 
+
 section.recommendedmovies div.three img {
     width: 225px;
     height: 380px;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
+
+
 section.recommendedmovies div.three p#one{
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
 section.recommendedmovies div.three p#two{
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(114, 116, 117);
 }
 
+
 section.recommendedmovies div.four img {
     width: 225px;
     height: 380px;
-    border-radius: 10px;
-   
+    border-radius: 10px;   
 }
+
+
 section.recommendedmovies div.four p#one{
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
 section.recommendedmovies div.four p#two{
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(114, 116, 117);
 }
 
+
 section.recommendedmovies div.five img {
     width: 225px;
     height: 380px;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 
 
@@ -238,14 +279,20 @@ section.recommendedmovies div.five p#one{
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
 section.recommendedmovies div.five p#two{
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(114, 116, 117);
 }
+
+
 section.poster2 {
     width: 100%;
 }
+
+
 section.poster2 img{
     position: relative;
     top: 20px;
@@ -254,8 +301,8 @@ section.poster2 img{
     padding-left: 30px;
     padding-right: 30px;
     width: 100%;
-
 }
+
 
 #h32 {
     display: flex;
@@ -267,18 +314,22 @@ section.poster2 img{
     width: 90%;
 }
 
+
 section.events {
     display: flex;
     position: relative;
     top: 10px;
     padding-left: 30px;
 }
+
+
 section.events img {
     width: 225px;
     height: 220px;
     border-radius: 10px 10px 10px 10px;
     margin-right: 35px;
 }
+
 
 section.premiere {
     background-color:  rgb(51, 53, 69);
@@ -287,6 +338,7 @@ section.premiere {
        top: 50px;
        margin: auto;
 }
+
 
 section.premiere #p0{
     color: #ff5962;
@@ -298,6 +350,7 @@ section.premiere #p0{
     font-size: 25px;
 }
 
+
 section.premiere i{
     color: #ff5962;
     position: relative;
@@ -305,6 +358,7 @@ section.premiere i{
     left: 30px;
     font-size: 50px;
 }
+
 
 section.premiere h3{
     padding-left: 50px;
@@ -316,6 +370,8 @@ section.premiere h3{
     left: 40px;
     width: 80%;
 }
+
+
 section.premiere p#p1{
     color: rgb(191, 194, 197);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -324,6 +380,8 @@ section.premiere p#p1{
     left: 90px;
     width: 80%;
 }
+
+
 section.premiere p#p2{
     padding-left: 50px;
     color: rgb(239, 240, 241);
@@ -333,6 +391,7 @@ section.premiere p#p2{
     position: relative;
     padding-left: 30px;
 }
+
 
 section.premiere p#p3{
     color: rgb(230, 231, 233);
@@ -344,14 +403,15 @@ section.premiere p#p3{
     width: 80%;
 }
 
+
 section.premiere .prem{
     display: flex;
     width: 100%;
-    padding-left: 30px;
-  
-    height: 425px;
-    
+    padding-left: 30px; 
+    height: 425px;   
 }
+
+
 section.premiere .prem div{
     margin-right: 35px
 }
@@ -361,11 +421,15 @@ section.premiere .prem .one img{
     width: 220px;
     border-radius: 10px;
 }
+
+
 section.premiere .prem .one .one{
     color: aliceblue;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
 section.premiere .prem .one .two{
     position: relative;
     top: 10px;
@@ -378,6 +442,8 @@ section.premiere .prem .two img{
     width: 220px;
     border-radius: 10px;
 }
+
+
 section.premiere .prem .two .one{
     color: aliceblue;
     font-weight: bold;
@@ -393,11 +459,12 @@ section.premiere .prem .two .two{
 }
 
 
-
 section.premiere .prem .three img{
     width: 220px;
     border-radius: 10px;
 }
+
+
 section.premiere .prem .three .one{
     color: aliceblue;
     font-weight: bold;
@@ -417,6 +484,8 @@ section.premiere .prem .four img{
     width: 220px;
     border-radius: 10px;
 }
+
+
 section.premiere .prem .four .one{
     color: aliceblue;
     font-weight: bold;
@@ -437,11 +506,12 @@ section.premiere .prem .five img{
     width: 220px;
     border-radius: 10px;
 }
+
+
 section.premiere .prem .five .one{
     color: aliceblue;
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
 }
 
 
@@ -451,6 +521,7 @@ section.premiere .prem .five .two{
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 h3#h34{
     display: flex;
@@ -465,18 +536,19 @@ h3#h34{
     width: 80%;
 }
 
+
 section.eventshappen{
     width: 100%;
 }
+
 
 section.eventshappen div.events {
     display: flex;
     padding-left: 30px;
     position: relative;
-    top: 50px;
-   
-    
+    top: 50px; 
 }
+
 
 section.eventshappen div.events img{
     border-radius: 10px;
@@ -485,11 +557,13 @@ section.eventshappen div.events img{
     margin: 17px;
 }
 
+
 section.eventshappen div.events p#one{
     width: 225px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+
 
 section.eventshappen div.events p#two{
     width: 225px;
@@ -497,11 +571,13 @@ section.eventshappen div.events p#two{
     color: rgb(84, 90, 90);
 }
 
+
 section.eventshappen div.events p#three{
     width: 225px;
     margin-top: 5px;
     color: rgb(84, 90, 90);
 }
+
 
 footer.one{
     display: flex;
@@ -514,19 +590,25 @@ footer.one{
     top: 60px;
 }
 
+
 footer.one i{
     position: relative;
     top: 4px;
     margin-right: 10px;
 }
+
+
 footer.one p {
     font-size: 20px;
 }
+
+
 p#h41{
     color: rgb(245, 246, 247);
     margin-right: 20px;
     font-size: 20px;
 }
+
 
 footer.one button{
     position: relative;
@@ -542,6 +624,7 @@ footer.one button{
     box-sizing: border-box;
 }
 
+
 footer2 {
     display: flex;
     justify-content: space-around;
@@ -551,6 +634,8 @@ footer2 {
     position: relative;
     top: 60px;
 }
+
+
 footer2 i{
     font-size: 60px;
     padding-left: 30px;
@@ -560,6 +645,8 @@ footer2 i{
     left: 50px;
     color: rgb(146, 154, 160);
 }
+
+
 footer2 div p{
     color: rgb(205, 205, 206);
     position: relative;
@@ -568,18 +655,24 @@ footer2 div p{
     font-size: smaller;
 }
 
+
 footer2 div p#one{
     position: relative;
     left: 30px;
 }
+
+
 footer2 div p#two{
     position: relative;
     right: 15px;
 }
+
+
 footer2 div p#three{
     position: relative;
     left: -25px;
 }
+
 
 section.footer3 {
     background-color:rgb(40, 40, 43);
@@ -590,17 +683,22 @@ section.footer3 {
     top: 60px;
 }
 
+
 section.footer3 h4{
     color: rgb(139, 144, 148);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 20px;
     font-size: medium;
 }
+
+
 section.footer3 p{
     color: rgb(137, 142, 146);
     margin-top: 15px;
     font-size: small;
 }
+
+
 section.footer3 img {
     display: flex;
     position: relative;
@@ -608,6 +706,8 @@ section.footer3 img {
     height: 125px;
     width: 250px;
 }
+
+
 section.footer3 i{
     color: rgb(194, 200, 204);
     position: relative;
@@ -615,6 +715,8 @@ section.footer3 i{
     left: 40%;
     letter-spacing: 10px;
 }
+
+
 section.footer3 div{
     text-align: center;
     width: 100%;
